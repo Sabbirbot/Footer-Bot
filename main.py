@@ -33,9 +33,9 @@ async def _start(bot: Client, m: Message):
         await m.reply_text(
             Config.START_TEXT,
             reply_markup=InlineKeyboardMarkup(
-                [
-                    [InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"), InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                    [InlineKeyboardButton("Developer - @AbirHasan2005", url="https://t.me/AbirHasan2005")]
+           
+                    [InlineKeyboardButton("❤️ Mirror Group ❤️", url="https://t.me/MirrorCloudbd"), InlineKeyboardButton("Update Channel", url="https://t.me/Woxreview")],
+                    [InlineKeyboardButton("Bot Owner", url="https://t.me/Dark558")]
                 ]
             ),
             quote=True
